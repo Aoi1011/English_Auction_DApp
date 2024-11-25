@@ -1,0 +1,21 @@
+{
+  "name": "restaking-addresses",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha --require ts-node/register test/**/*.test.ts"
+  },
+  "dependencies": {
+    "cliui": "6",
+    "string-width": "4",
+    "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "@types/chai": "^5.0.1",
+    "@types/mocha": "^10.0.10",
+    "chai": "^5.1.2",
+    "mocha": "^10.8.2",
+    "ts-node": "^10.9.2"
+  }
+}
